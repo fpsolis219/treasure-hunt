@@ -1,0 +1,45 @@
+h1{
+    margin: 200px;
+    font-size: 60px;
+    font-family: 'Island Moments', cursive;
+    color:#ffae00;
+    background-color:antiquewhite;;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Island Moments', cursive;
+    color:#ffae00;
+    font-display: crimson;
+    background-color:blue;
+}
+ul{ 
+    font-size: 30px ;
+    display: table;
+    margin:auto;
+    font-family: 'Island Moments', cursive;
+    color:#ffae00;
+    background-color:antiquewhite;
+    background-attachment:local;
+
+}
+table {
+    border-width: 20px;
+    border-color: grey;
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTEzODEyNC1pbWFnZS1rd3Z5NTA3Ny5qcGc.jpg);
+    background-size: cover;
+}
+div.a {
+    font-size: 30px;
+}

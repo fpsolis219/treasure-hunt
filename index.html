@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title> TFM Treasure Hunt</title>
+    <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/photos/gold-coins-picture-id165418688?k=20&m=165418688&s=612x612&w=0&h=Nw4eXeYtbwNPavfU55647mxSaZUldDlZ7CfYJSCLuXo=">
+    <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+    <h1 id="top">🏴‍☠️T.F.M. Treasure Hunt 🏴‍☠️</h1>
+    <h2>Welcome  to  Trevor,Francisco,  &  Mikes treasure  hunt</h2>
+
+    <ul>
+        <li>Click the boxes to reveal the tile.</li>
+        <li>If you get a "X" you LOST!</li>
+        <li>If you get a Palm Tree, you WON!</li>
+        <li>Click on the boxes until you Win or Lose.</li>
+        <li>Have Fun.</li>
+        
+    </ul>
+    <div id="gameboard">
+    <table id="outcome" border="2">
+        <tr>
+            <td id="0" onClick = "treasureHunt(0)">🏝️</td>
+            <td id="1" onClick = "treasureHunt(1)">🏝️</td>
+            <td id="2" onClick = "treasureHunt(2)">🏝️</td>
+        </tr>
+        <tr>
+            <td id="3" onClick = "treasureHunt(3)">🏝️</td>
+            <td id="4" onClick = "treasureHunt(4)">🏝️</td>
+            <td id="5" onClick = "treasureHunt(5)">🏝️</td>
+        </tr>
+        <tr>
+            <td id="6" onClick = "treasureHunt(6)">🏝️</td>
+            <td id="7" onClick = "treasureHunt(7)">🏝️</td>
+            <td id="8" onClick = "treasureHunt(8)">🏝️</td>
+        </tr>
+    </table>
+    </div>
+    
+    <footer>&copy TFM Jumpstart</footer>
+
+    <a href="#top">Back to top</a>
+    <a href="https://en.wikipedia.org/wiki/Treasure_hunt" target="_blank">Treasure Hunt Wiki</a>
+    <button type="submit" onClick="refreshPage()">Restart Game</button>
+
+    <script type="text/javascript" src="treasurehunt.js"></script>
+    <link rel="stylesheet" href="treasurehunt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ </body>
+</html>
